@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shop.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>shop</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <form class="form">
+        <label for="candyName">candyName
+          <input type="text" id="candyName" placeholder="candyName" required>
+        </label>
+
+        <label for="description">description
+          <input type="text" id="description" placeholder="description" required>
+        </label>
+
+        <label for="price">price
+          <input type="text" id="price" placeholder="price" required>
+        </label>
+
+        <label for="quantity">quantity
+          <input type="number" id="quantity" placeholder="quantity" required>
+        </label>
+
+        <button type="submit" id="submitBtn">add tems</button>
+      </form>
+    </div>
+    <table id="tableItems" class="table">
+      <tr class="headLine">
+        <th>Candy</th>
+        <th>description</th>
+        <th>price</th>
+        <th>quantity</th>
+        <th>buy</th>
+      </tr>
+      <!-- <tr> -->
+        <!-- <td>5 star</td>
+        <td>chocolaty</td>
+        <td>2rs</td>
+        <td>100</td> -->
+        <!-- <td><input type="number" placeholder="buyCandy">
+          <button class="buyBtn" id="1">buy</button>
+        </td> -->
+      <!-- </tr> -->
+    </table>
+
+
+    <script src="shop.js"></script>
+  </body>
+
+</html>

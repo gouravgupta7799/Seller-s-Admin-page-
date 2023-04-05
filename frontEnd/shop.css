@@ -1,0 +1,68 @@
+.container {
+  margin-top: 20px;
+  background: #c7bcbc;
+  display: flex;
+  justify-content: center;
+}
+.form{
+  padding:50px;
+}
+
+input {
+  margin: 6px;
+  padding: 2px;
+  font-size: large;
+  text-decoration: none;
+}
+
+#submitBtn {
+  font-size: large;
+  border: 2px solid black;
+  border-radius: 7px;
+  background: #0f3ec0;
+  color: white;
+  padding: 8px;
+}
+
+.table {
+  background: #c4bfbf;
+  margin: 20px 0;
+}
+
+th {
+  padding-right: 150px;
+  padding-left: 7px;
+  font-size: x-large;
+  padding-bottom: 15;
+}
+
+td {
+  padding-right:120px;
+  padding-top: 10px;
+  padding-left: 7px;
+  padding-bottom: 10px;
+}
+
+.buyBtn{
+  background: #1ead42;
+  border-radius: 7px;
+  margin: 2px;
+  padding: 10px 15px;
+}
+
+.withName{
+  background: #f7adad;
+}
+.withDesc{
+  background: #8f9dee;
+}
+.withPrice{
+  background: #5cdf67;
+}
+.withQuty{
+  background: #d638d6;
+}
+
+.headLine{
+  background: #1ae9de;
+}
